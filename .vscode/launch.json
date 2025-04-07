@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open sida4.html",
+            "file": "c:\\Users\\laak0405\\OneDrive - Sala kommun\\Dokument\\live server\\typeshi0002.github.io\\sida4.html"
+        }
+        
+          
+          
+    ]
+}
