@@ -4,49 +4,37 @@
     <html lang="en">
 </head>
 <style>
-    .grid-container {
-        display: grid;
-        grid-template-columns: 100px 100px 150px;
-        grid-template-rows: 60px 60px 60px;
-    }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 60px 60px 60px;
+    grid-template-areas:
+        "area1 area2 area2"
+        "area1 area2 area2"
+        "area3 area3 area3";
+}
 
-    .grid-container>div {
-        padding: 10px;
-        font-size: 30px;
-        text-align: center;
-    }
+.grid-container>div {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
 
-    .item1 {
-        background-color: lightpink;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
+.item1 {
+    background-color: lightpink;
+    grid-area: area1;
+}
 
-    .item2 {
-        background-color: beige;
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 3;
-    }
+.item2 {
+    background-color: beige;
+    grid-area: area2;
+}
 
-    .item3 {
-        background-color: rgb(8, 151, 3);
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
+.item3 {
+    background-color: lightblue;
+    grid-area: area3;
+}
 
-    .item4 {
-        background-color: rgb(8, 151, 3);
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
 
 
 
@@ -58,11 +46,14 @@
 <body>
 
     <div class="grid-container">
-        <div class="item1">ett</div>
-        <div class="item2">två</div>
-        <div class="item3">tre</div>
-        <div class="item4">fyra</div>
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
     </div>
+    
+    
+        
+    
 </body>
 
 </html>
