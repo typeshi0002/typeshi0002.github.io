@@ -5,14 +5,15 @@
     <style>
         .grid-container {
             display: grid;
-            grid-template-columns: 130px 100px 100px 100px 100px;
-            grid-template-rows: 60px 40px 40px 60px 40px;
+            grid-template-columns: 260px 200px 200px;
+            grid-template-rows: 60px 120px 120px 60px;
             grid-template-areas:
-                "area5 area5 area5 area5"
-                "area1 area1 area2 area2"
-                "area1 area1 area3 area3"
-                "area1 area1 area3 area3"
-                "area4 area4 area4 area4";
+                "area5 area5 area5"
+                "area1 area2 area7"
+                "area1 area3 area6"
+                "area4 area4 area4"
+                
+                ;
             gap: 10px;
         }
 
@@ -23,7 +24,7 @@
         }
 
         .item1 {
-            background-color: lightpink;
+            background-color: orange;
             grid-area: area1;
         }
 
@@ -40,18 +41,34 @@
          
         .item4 {
 
-        background-color: lightblue;
+        background-color: green;
         grid-area: area4;
 
         }
     
         .item5 {
 
-        background-color: lightblue;
+        background-color: red;
         grid-area: area5;
 
         }
+        
 
+        .item6 {
+
+background-color: lightblue;
+grid-area: area6;
+
+        }
+ 
+        
+        .item7 {
+
+background-color: lightblue;
+grid-area: area7;
+
+        }
+ 
  </style>
 
 </head>
@@ -66,6 +83,8 @@
         <div class="item3">3</div>
         <div class="item4">4</div>
         <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
     </div>
 
 
