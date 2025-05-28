@@ -5,7 +5,7 @@
     grid-template-areas:
     "top"
     "header"
-    "product card"
+    "product"
     "bottom";
 
 }
@@ -29,7 +29,7 @@ img {
     border-radius: 8px;
 
   }
-  .product-card {
+  .product{
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 5px #CCC;
