@@ -5,7 +5,7 @@
     grid-template-areas:
     "top"
     "header"
-    "product"
+    "product card"
     "bottom";
 
 }
@@ -15,3 +15,26 @@
     flex-wrap: wrap;
 
 }
+
+img {
+    height: 300px;
+   width: 300px;
+}
+
+.buy-button {
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+
+  }
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #CCC;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  
