@@ -3,10 +3,10 @@
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
-    "top"
-    "header"
-    "product"
-    "bottom";
+        "top"
+        "header"
+        "product"
+        "bottom";
 
 }
 
@@ -17,8 +17,8 @@
 }
 
 img {
-    height: 300px;
-   width: 300px;
+    height: 200px;
+    width: 200px;
 }
 
 .buy-button {
@@ -27,14 +27,12 @@ img {
     border: none;
     padding: 5px 10px;
     border-radius: 8px;
+}
 
-  }
-  .product{
+.product-card {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 5px #CCC;
     padding: 10px;
     width: 200px;
-  }
-  
-  
+}
